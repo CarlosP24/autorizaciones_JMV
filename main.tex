@@ -114,51 +114,5 @@ Para que así conste, firmo este documento.
     \end{flushright}
 \end{Form}
 
-\clearpage
-\bigskip
-\begin{center}
-    {\ImpactFont\fontsize{24}{28}\selectfont\bfseries\makeatletter\@ifundefined{thetitle}{\@title}{\thetitle}\makeatother}\par
-    \large Condiciones médicas y administración de medicamentos
-\end{center}
-
-\textit{Esta página debe entregarse debidamente firmada junto con la autorización de participación.}
-
-Yo, el firmante identificado en la página anterior,
-
-MANIFIESTO a los organizadores de la actividad que mi hijo/a padece las siguientes alergias, intolerancias o condiciones médicas que deben ser tenidas en cuenta durante el desarrollo de la actividad:
-
-\begin{Form}
-    \TextField[name=medical_conditions,width=\dimexpr\linewidth\relax,height=60pt,multiline=true,bordercolor={0 0 0}]{}
-\end{Form}
-
-SOLICITO Y AUTORIZO a los responasbles de la actividad que administren a mi hijo/a los siguientes medicamentos (indicar medicamento y posología):
-
-\begin{Form}
-    \TextField[name=medications,width=\dimexpr\linewidth\relax,height=120pt,multiline=true,bordercolor={0 0 0}]{}
-\end{Form}
-
-Para que así conste, firmo este documento.
-
-\begin{Form}
-    \begin{flushright}
-        En \TextField[name=place,width=5cm,height=18pt,bordercolor={0 0 0}]{} a \TextField[name=date,width=7cm,height=18pt,bordercolor={0 0 0}]{}
-    \end{flushright}
-\end{Form}
-
-\begin{Form}
-    \begin{flushright}
-        \makeatletter
-        \@ifundefined{sigField}{%
-            \TextField[name=signature,width=7cm,height=36pt,bordercolor={0 0 0}]{}%
-        }{%
-            \sigField[\BC{0 0 0}]{signature}{7cm}{60pt}%
-        }
-        \makeatother 
-        \par\bigskip
-        Fdo. \rule{7cm}{0.4pt}
-    \end{flushright}
-\end{Form}
-
-
 
 \end{document}
