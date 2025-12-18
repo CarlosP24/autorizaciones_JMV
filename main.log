@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  18 DEC 2025 02:49
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.2)  18 DEC 2025 02:51
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"/Users/carlospaya/Desktop/JMV Form/main.tex"
@@ -808,6 +808,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 92.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 92.
+
+
 
 File: area.pdf Graphic file (type pdf)
 <use area.pdf>
@@ -831,15 +835,15 @@ Here is how much of LuaTeX's memory you used:
  100000,1144653 words of node,token memory allocated
  504 words of node memory still in use:
    4 hlist, 1 vlist, 2 rule, 2 glue, 3 kern, 1 glyph, 7 attribute, 61 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 2:450,3:174,4:63,5:76,6:67,7:2587,8:2,9:340,10:7,11:282
+   avail lists: 2:460,3:178,4:63,5:76,6:68,7:2702,8:2,9:340,10:7,11:303
  48062 multiletter control sequences out of 65536+600000
  61 fonts using 12156303 bytes
- 99i,24n,105p,447b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,24n,105p,547b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Supplemental/Arial Italic.ttf></System/Library/Fonts/Supplemental/Arial.ttf></System/Library/Fonts/Supplemental/Impact.ttf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (2 pages, 75832 bytes).
+Output written on main.pdf (2 pages, 75949 bytes).
 
-PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+PDF statistics: 121 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  206 words of extra memory for PDF output out of 10000 (max. 100000000)
 
